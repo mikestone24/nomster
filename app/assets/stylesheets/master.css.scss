@@ -16,7 +16,11 @@ h1, h2, h3, h4, h5, h6 {
 body {
   background: url('/assets/confectionary.png');
 font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
-
+}
+.navbar-inverse .navbar-brand {
+    color: #E3E85A;
+    font-family: 'cantarellregular', sans-serif;
+    font-size:26px;
 }
 .navbar.navbar-inverse {
   background:url('/assets/dark_embroidery.png');
