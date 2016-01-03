@@ -121,12 +121,14 @@
 
 <% @place.photos.each do |photo| %>
 <div class="col-xs-12 col-sm-6">
-  <div>
-    <blockquote> 
-      <%= image_tag photo.picture %>
+  <div class='upload-image-container'>
+   
+      <%= image_tag photo.picture, :class => 'uploaded-image' %>
+      <br/>
       <%= photo.caption %>
+      <br/>
       <small><%= photo.user.email %></small>
-    </blockquote>
+   
   </div>
     </div>
 <% end %>
