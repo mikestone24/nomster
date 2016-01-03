@@ -24,6 +24,8 @@ gem 'sprockets', '2.11.0'
 
 gem 'jquery-rails'
 
+gem 'will_paginate', '~> 3.0.6'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
