@@ -7,7 +7,11 @@ class PlacesController < ApplicationController
 	def new
 		@place = Place.new
     end
-
+    
+    def edit
+    	@place = Place.find(params[:id])
+    end
+    
     def create
     	current_user.places.create(place_params)
     	redirect_to root_path
